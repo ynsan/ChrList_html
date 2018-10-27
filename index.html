@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="keywords" content="石,キャラクター,辞典">
+		<meta name="description" content="石の擬人化キャラクターのイラスト辞典を作りました。">
+		<meta name="theme-color" content="#07aaa5">
+		<title>岩石鉱物擬人化キャラクター辞典</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="favicon.ico">
+	</head>
+	<body>
+		<header onMouseDown="return false;">
+			<h1>岩石鉱物擬人化キャラクター辞典</h1>
+			<div id="header_menu">
+				<ul>
+					<li>メニュースペース</li>
+				</ul>
+			</div>
+		</header>
+		<script>
+			// ランダムトップ画像
+			var rnd = Math.floor(Math.random() * (2+1));
+			function A(){
+						document.write("<img src='Images/hero_img" + rnd + ".png' style='width: 100%; margin: auto;'>");
+					};
+			function B(){
+				document.write("<style>#hero {background-image: url('Images/hero_bg" + rnd + ".png');}</style>");
+			}; B();
+		</script>
+		<div id="hero" onMouseDown="return false;" onSelectStart="return false" oncontextmenu="return false;">
+			<div>
+				<h3 style="color: #252a31; text-shadow: #fff 1px 1px 0px, #fff -1px 1px 0px, #fff 1px -1px 0px, #fff -1px -1px 0px; padding: 12px;">
+					自分の趣味の一つとして、岩石や鉱物を擬人化したオリジナルのキャラクターイラスト辞典を制作しました。
+				</h3>
+				<script>A();</script>
+			</div>
+		</div>
+		<div id="container">
+			<p>サイトのhtml、cssをデザインから構成まで行ってきました。イラストや画像もすべてオリジナルです。<br>
+				キャラクターイラストはものによりますが、一つのイラストにおおよそ1時間から3時間程度かけています。
+			</p>
+			<div class="CharacterNodes" onMouseDown="return false;" onSelectStart="return false" oncontextmenu="return false;">
+				<ul>
+					<h4>キャラクターイラスト一覧</h4>
+					<li>
+						<a href="chr_data/Andesite.png">
+							<div class="num_label">
+								<p>Andesite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Andesite.png">
+							</div>
+							<div class="status_label">
+								安山岩<br><span class="sub_text">あんざんがん</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Diorite.png">
+							<div class="num_label">
+								<p>Diorite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Diorite.png">
+							</div>
+							<div class="status_label">
+								閃緑岩<br><span class="sub_text">せんりょくがん</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Granite.png">
+							<div class="num_label">
+								<p>Granite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Granite.png">
+							</div>
+							<div class="status_label">
+								花崗岩<br><span class="sub_text">かこうがん</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Pumice.png">
+							<div class="num_label">
+								<p>Pumice</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Pumice.png">
+							</div>
+							<div class="status_label">
+								軽石<br><span class="sub_text">かるいし</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Dunite.png">
+							<div class="num_label">
+								<p>Dunite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Dunite.png">
+							</div>
+							<div class="status_label">
+								かんらん岩<br><span class="sub_text">かんらんがん</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/LimeStone.png">
+							<div class="num_label">
+								<p>LimeStone</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_LimeStone.png">
+							</div>
+							<div class="status_label">
+								石灰岩<br><span class="sub_text">せっかいがん</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Calcite.png">
+							<div class="num_label">
+								<p>Calcite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Calcite.png">
+							</div>
+							<div class="status_label">
+								方解石<br><span class="sub_text">ほうかいせき</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Stalactite.png">
+							<div class="num_label">
+								<p>Stalactite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Stalactite.png">
+							</div>
+							<div class="status_label">
+								鍾乳石<br><span class="sub_text">しょうにゅうせき</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Coal.png">
+							<div class="num_label">
+								<p>Coal</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Coal.png">
+							</div>
+							<div class="status_label">
+								石炭<br><span class="sub_text">せきたん</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Septarian.png">
+							<div class="num_label">
+								<p>Septatian</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Septarian.png">
+							</div>
+							<div class="status_label">
+								泥灰岩<br><span class="sub_text">でいかいがん</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/CommonOpal.png">
+							<div class="num_label">
+								<p>CommonOpal</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_CommonOpal.png">
+							</div>
+								<div class="status_label">
+								蛋白石(普通)<br><span class="sub_text">たんぱくせき</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/IronOre.png">
+							<div class="num_label">
+								<p>IronOre</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_IronOre.png">
+							</div>
+							<div class="status_label">
+								鉄鉱石<br><span class="sub_text">てっこうせき</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/RockCrystal.png">
+							<div class="num_label">
+								<p>Crystal</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_RockCrystal.png">
+							</div>
+							<div class="status_label">
+								水晶<br><span class="sub_text">すいしょう</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/BandedAgate.png">
+							<div class="num_label">
+								<p>Agate</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_BandedAgate.png">
+							</div>
+							<div class="status_label">
+								メノウ<br><span class="sub_text"></span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Labradorite.png">
+							<div class="num_label">
+								<p>Labradorite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Labradorite.png">
+							</div>
+							<div class="status_label">
+								ラブラドル長石<br><span class="sub_text">らぶらどるちょうせき</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Schorl.png">
+							<div class="num_label">
+								<p>Schorl</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Schorl.png">
+							</div>
+							<div class="status_label">
+								鉄電気石<br><span class="sub_text">てつでんきいし</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Staurolite.png">
+							<div class="num_label">
+								<p>Staurolite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Staurolite.png">
+							</div>
+							<div class="status_label">
+								十字石<br><span class="sub_text">じゅうじせき</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+					<li>
+						<a href="chr_data/Jamesonite.png">
+							<div class="num_label">
+								<p>Jamesonite</p>
+							</div>
+							<div class="setThumbnail">
+								<img src="chr_data/thum_Jamesonite.png">
+							</div>
+							<div class="status_label">
+								毛鉱<br><span class="sub_text">もうこう</span>
+							</div>
+							<div class="anotherType"></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<small>キャラクターイラスト&デザイン by Yuka Nonaka</small><br>
+		</footer>
+	</body>
+</html>
