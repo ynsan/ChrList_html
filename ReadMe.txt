@@ -1,7 +1,9 @@
 
-�����HTML���g�������̎�̍�i�W�ł��B
-���i�̑n�슈���̗l�q���Q�l���x�ɂƎv�����e���܂����B
+これはHTMLを使った私の趣味の作品集です。
+普段の創作活動の様子を参考程度にと思い投稿しました。
 
-�C���X�g����HTML,CSS�f�U�C���܂őS�Ĉ�l�ōs���܂����B
+<img src="https://github.com/ynsan/ChrList_html/blob/master/img_1.png">
+<img src="https://github.com/ynsan/ChrList_html/blob/master/img_2.png">
 
-��ˑ�w �쒆 �I��
+イラストからHTML,CSSデザインまで全て一人で行いました。
+宝塚大学 野中 悠花
